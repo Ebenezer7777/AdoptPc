@@ -1,0 +1,40 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    background-color: #f1f1f1;
+    border: 5px solid gray;
+    opacity: 0.8;
+    
+    float: left;
+  }
+.background{
+  
+  height: 1000px;
+  background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+.buttonL {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-right: 50px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+ 
+  
+}
+
+.buttonR {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 50px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+ 
+  
+}
